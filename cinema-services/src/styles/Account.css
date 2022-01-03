@@ -1,0 +1,103 @@
+.form-container-Account{
+    padding: 1em 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.form-wrap-Account{
+    line-height: 2;
+    width: 50%;
+    border: 1px solid var(--teal);
+    box-shadow: 0.1em 0.1em 1em 0.1em rgb(184, 180, 180);
+    border-radius: 0.5em;
+    padding:3em 1.5em ;
+    margin:6rem auto;
+}
+.form-wrap-Account .form-group-Account{
+    margin-top: 0.5rem;
+}
+.form-wrap-Account .form-group-Account label{
+    display: block;
+    color: var(--teal);
+}
+.form-wrap-Account .form-group-Account input{
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5em;
+}
+.form-wrap-Account form .logout-button{
+    width: 10%;
+    margin:2rem 1rem 0 2rem;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    color: var(--white);
+    background-color: red;
+    font-size: 1rem;
+    transition: ease-in,500ms;
+    transform: scale(1.2);
+    border: none;
+ }
+ .form-wrap-Account form .logout-button:hover{
+     cursor: pointer;
+     background-color: rgb(187, 52, 52);
+ }
+ .form-wrap-Account form .edit-button{
+    width: 10%;
+    margin:1rem auto 0 auto;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    color: var(--white);
+    background-color: var(--teal);
+    font-size: 1rem;
+    transition: ease-in,500ms;
+    transform: scale(1.2);
+    border: none;
+ }
+ .form-wrap-Account form .edit-button:hover{
+     cursor: pointer;
+     background-color: #db9d21;
+ }
+
+ @media screen and (max-width:767px){
+    .form-container-Account{
+        width: 100%;
+    }
+    .form-wrap-Account{
+        width: 100%;
+    }
+    .form-wrap-Account form .edit-button{
+        width: 30%;
+        font-size: 0.8em;
+    }
+        .form-wrap-Account form .logout-button{
+            width: 30%;
+            font-size: 0.8em;
+        }
+        .form-wrap-Account h1{
+            font-size: 1.5em;
+        }
+ }
+ @media screen and (min-width:767px){
+    .form-wrap-Account form .edit-button{
+        width: 30%;
+        font-size: 0.8em;
+    }
+        .form-wrap-Account form .logout-button{
+            width: 30%;
+            font-size: 0.8em;
+        }
+      
+ }
+ @media screen and (min-width:1440px){
+    .form-wrap-Account form .edit-button{
+        width: 10%;
+        font-size: 1rem;
+    }
+        .form-wrap-Account form .logout-button{
+            width: 10%;
+            font-size: 1rem;
+        }
+      
+ }

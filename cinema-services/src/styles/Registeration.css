@@ -1,0 +1,112 @@
+.registeration{
+    min-height: 75vh;
+}
+.form-container{
+    padding: 1em 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-wrap{
+    line-height: 2;
+    width: 30%;
+    border: 1px solid var(--teal);
+    box-shadow: 0.1em 0.1em 1em 0.1em rgb(184, 180, 180);
+    border-radius: 0.5em;
+    padding:1em 1.5em ;
+    margin:6rem auto;
+}
+.form-wrap h1,.form-wrap p {
+    text-align: center;
+    color: var(--navyBlue);
+}
+.form-wrap .form-group{
+    margin-top: 0.5rem;
+}
+.form-wrap .form-group label{
+    display: block;
+    color: var(--teal);
+}
+.form-wrap .form-group input{
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5em;
+}
+.form-wrap form button{
+   display: block;
+   width: 30%;
+   margin:1rem auto 0 auto;
+   padding: 0.5em 1em;
+   border-radius: 0.5em;
+   color: var(--white);
+   background-color: var(--teal);
+   font-size: 1rem;
+   transition: ease-in,500ms;
+   transform: scale(1.2);
+   border: none;
+}
+.form-wrap form button:hover{
+    cursor: pointer;
+    background-color: #db9d21;
+}
+.form-footer{
+    text-align: center;
+    margin-top: 0.85rem;
+    font-size: 1em;
+}
+.form-footer p span{
+    cursor: pointer;
+    font-style: italic;
+    color: var(--teal);
+    text-decoration: underline;
+}
+@media screen and (max-width:767px) {
+    .form-container{
+        width: 100%;
+    }
+    .form-wrap{
+        width: 100%;
+    }
+    .form-wrap form button{
+        width: 50%;
+        font-size:0.8em ;
+        padding: 0.3em 1em;
+    }
+}
+@media screen and (min-width:768px) {
+    .form-container{
+        width: 100%;
+    }
+    .form-wrap{
+        width: 70%;
+    }
+    .form-wrap form button{
+        width: 30%;
+        font-size:0.8em ;
+        padding: 0.3em 1em;
+    }
+}
+@media screen and (min-width:1024px) {
+  
+    .form-wrap{
+        width: 70%;
+    }
+    .form-wrap form button{
+        width: 30%;
+        font-size:0.8em ;
+        padding: 0.3em 1em;
+    }
+}
+@media screen and (min-width:1440px) {
+
+    .form-wrap{
+        width: 30%;
+    }
+    .form-wrap form button{
+        width: 30%;
+        font-size:0.8em ;
+        padding: 0.3em 1em;
+    }
+}
+
