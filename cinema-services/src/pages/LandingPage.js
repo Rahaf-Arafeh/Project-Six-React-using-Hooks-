@@ -15,20 +15,15 @@ function LandingPage() {
                     <button>Book Now</button>
                 </div>
             </section>
+            <h1 className='grid-area-heading'>Welcome To CIMA</h1>
+            <div className='movies-offered'>
+                <div className='box1'><h1>Welcome to CIMA a place where you can bring cinema to home </h1>
+                    <h1>We seek to bring joy to you home</h1></div>
+                <div className='box2'><img src='hero1.png' /></div>
+            </div>
             <section className='image-slider'>
                 <ImageSlider />
             </section >
-            {/* <section className='movies-offered'>
-                <h1 className='header'>Movies We Offered</h1>
-                <div className='box1'></div>
-                <div className='box2'></div>
-                <div className='box3'></div>
-                <div className='box4'></div>
-                <div className='box5'></div>
-                <div className='box6'></div>
-                <div className='box7'></div>
-
-            </section> */}
             <section className='about-us'>
                 <div className='about-us-content'>
                     <h1>Who We Are ?</h1>
